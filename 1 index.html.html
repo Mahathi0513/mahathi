@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahathi Ramya | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #e2c4a0, #f5eee3);
+            color: #444;
+        }
+        header {
+            background: linear-gradient(135deg, #b08968, #a47148);
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            box-shadow: 0 4px 20px rgba(176, 137, 104, 0.4);
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #b08968;
+            flex-wrap: wrap;
+            border-radius: 30px;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 4px 15px rgba(176, 137, 104, 0.2);
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background: #fff;
+            color: #b08968;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px 0;
+        }
+        section {
+            margin-bottom: 30px;
+            background: #f9f2e7;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(176, 137, 104, 0.2);
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        section h2 {
+            color: #a47148;
+            margin-bottom: 15px;
+            border-bottom: 2px dashed #b08968;
+            display: inline-block;
+        }
+        .projects .project {
+            background: #f0e1d0;
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 6px solid #b08968;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+        .projects .project:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 12px rgba(176, 137, 104, 0.2);
+        }
+        .contact a {
+            color: #a47148;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            background: #b08968;
+            color: #fff;
+            padding: 15px 0;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mahathi Ramya Motepalli</h1>
+        <p>B.Sc Computer Science Student</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Mahathi, a passionate Computer Science student eager to explore the world of web development, programming, and design. I love creating responsive and user-friendly websites.</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website built with HTML, CSS.</p>
+            </div>
+            <div class="project">
+                <h3>Shopping List</h3>
+                <p>A simple shopping list application to manage tasks effectively.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:motepallimahathiramya@gmail.com">motepallimahathiramya@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mahathi-ramya-1aa26a2a8" target="_blank">linkedin.com/in/mahathi-ramya</a></p>
+            <p>GitHub: <a href="https://github.com/Mahathi0513" target="_blank">github.com/Mahathi0513</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Mahathi Ramya Motepalli. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
